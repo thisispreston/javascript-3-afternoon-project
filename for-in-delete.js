@@ -40,7 +40,11 @@
 */
 
 function showValues( obj ) {
-  //Code Here
+  let concat = []
+    for (var prop in obj) {
+     concat.push(prop)
+    }
+    return concat
 }
 
 
